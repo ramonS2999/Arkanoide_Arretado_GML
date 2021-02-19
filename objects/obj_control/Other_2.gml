@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-velocidade = 5;
-powerup = false;
-
+global.pontuacao = 0;
+global.recorde = 0;
+global.vidas = 3;
