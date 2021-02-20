@@ -28,6 +28,7 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_blocoRoxo","path":"objects/obj_blocoRoxo/obj_blocoRoxo.yy",},"parent":{"name":"obj_tiro","path":"objects/obj_tiro/obj_tiro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_blocoVerde","path":"objects/obj_blocoVerde/obj_blocoVerde.yy",},"parent":{"name":"obj_tiro","path":"objects/obj_tiro/obj_tiro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_blocoVermelho","path":"objects/obj_blocoVermelho/obj_blocoVermelho.yy",},"parent":{"name":"obj_tiro","path":"objects/obj_tiro/obj_tiro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":7,"collisionObjectId":null,"parent":{"name":"obj_tiro","path":"objects/obj_tiro/obj_tiro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

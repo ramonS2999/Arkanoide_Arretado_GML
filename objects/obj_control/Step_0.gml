@@ -5,7 +5,16 @@ if (!instance_exists(obj_blocoAmarelho) and !instance_exists(obj_blocoAzul) and
 	!instance_exists(obj_blocoCinza) and !instance_exists(obj_blocoRoxo) and 
 	!instance_exists(obj_blocoVerde) and !instance_exists(obj_blocoVermelho))
 {
-	room_goto_next();
+	if (room = Room3)
+	{
+		room_goto(Room1);
+	}
+	else
+	{
+		room_goto_next();
+	}
+	
+	audio_play_sound(snd_levelUP, 10, false);
 }
 
 /*

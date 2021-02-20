@@ -3,3 +3,6 @@
 
 scr_colisaoBlocos();
 scr_powerup();
+
+//Executando som de colisão
+audio_play_sound(snd_colisao, 10, false);

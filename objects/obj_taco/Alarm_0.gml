@@ -8,3 +8,5 @@ if(powerup == true)
 {
 	alarm[0] = 60;
 }
+
+audio_play_sound(snd_tiro, 10, false);

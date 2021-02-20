@@ -1,6 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function scr_colisaoBlocos(){
+function scr_colisaoBlocos()
+{
 	
 	//Rebantendo a bola
 	move_bounce_all(true);
@@ -25,6 +26,7 @@ function scr_powerup() {
 	
 	if(sorteio == 10)
 	{
-		instance_create_layer(x, y, "instances", obj_powerup);
+		instance_create_layer(x, y, "PowerUP", obj_powerup);
+		audio_play_sound(snd_powerUP1, 10, false);
 	}
 }
